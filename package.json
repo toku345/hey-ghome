@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "test": "shadow-cljs compile test",
+    "build": "shadow-cljs compile app"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.7.8",
+    "source-map-support": "^0.5.9",
+    "ws": "^6.1.2"
+  },
+  "author": "toku345",
+  "license": "EPL-2.0"
+}
