@@ -1,6 +1,7 @@
 .shadow-cljs
 target/app.js
 out
+.DS_Store
 
 # Created by https://www.gitignore.io/api/clojure,node
 
