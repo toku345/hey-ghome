@@ -14,5 +14,8 @@
 (defn reload! []
   (println "Code updated."))
 
-(defn main! []
+(defn dev-main []
   (println "App loaded!"))
+
+(defn main! [& args]
+  (say (first args)))
