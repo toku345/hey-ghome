@@ -2,6 +2,7 @@
 target/app.js
 out
 .DS_Store
+bin/say
 
 # Created by https://www.gitignore.io/api/clojure,node
 
