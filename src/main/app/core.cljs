@@ -10,6 +10,7 @@
   (.ip googlehome device-ip language)
   (.notify googlehome text (clj->js (fn [res] (prn res)))))
 
+
 (defn reload! []
   (println "Code updated."))
 
