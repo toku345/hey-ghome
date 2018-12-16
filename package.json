@@ -4,6 +4,9 @@
     "test": "shadow-cljs compile test",
     "build": "shadow-cljs compile app"
   },
+  "dependencies": {
+    "google-home-notifier": "toku345/google-home-notifier#update-google-tts-api"
+  },
   "devDependencies": {
     "shadow-cljs": "^2.7.8",
     "source-map-support": "^0.5.9",
