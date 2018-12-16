@@ -26,6 +26,8 @@ This project heavily dependent on shadow-cljs.
 
 Then, change ip address to your Google Home's.
 
+In ./src/main/app/core.cljs:
+
 ``` clojure:./src/main/app/core.cljs
 (defonce device-ip "192.168.3.11") ; TODO: change your Google Home's ip address
 ```
