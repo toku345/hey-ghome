@@ -9,7 +9,7 @@
 (defn say [text]
   ;; (.device googlehome device-name "ja")
   (.ip googlehome device-ip language)
-  (.notify googlehome text (clj->js (fn [res] (prn res)))))
+  (.notify googlehome text (fn [res] (prn res))))
 
 (defn watch-input []
   (let [reader (.createInterface readline #js {:input js/process.stdin :output js/process.stdout})]
